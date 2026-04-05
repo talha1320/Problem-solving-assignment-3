@@ -2,6 +2,6 @@
 var area = 800;
 
 // write your code here
-var result = area / 2;
+var result1 = area / 2;
 
-console.log(result);
+console.log(result1);

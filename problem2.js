@@ -9,6 +9,6 @@ else if (money >= 10000)  {
     result = "Cycle";
 }
 else {
-    result = "Chocolate";
+    result2 = "Chocolate";
 }
-console.log(result);
+console.log(result2);
