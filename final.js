@@ -57,3 +57,18 @@ var student = { name: "jhankar", roll: 1014, department: "cse" };
 var email = student.name + student.roll + "." + student.department + "@ph.ac.bd";
 
 console.log(email);
+
+/** Problem 06 : (Current Salary) */
+
+var experience = 30;
+var startingSalary = 45000;
+
+var currentSalary = startingSalary;
+var year = 1;
+
+while (year <= experience) {
+  currentSalary *= 1.05;
+  year++;
+}
+
+console.log(currentSalary.toFixed(2));
